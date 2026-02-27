@@ -2,6 +2,21 @@
   "name": "backfill-config",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "6.7.1",
+      "tag": "backfill-config_v6.7.1",
+      "comments": {
+        "none": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-config",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 06 Aug 2025 08:17:18 GMT",
       "version": "6.7.1",
       "tag": "backfill-config_v6.7.1",

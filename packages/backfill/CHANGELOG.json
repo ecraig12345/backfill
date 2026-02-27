@@ -2,6 +2,67 @@
   "name": "backfill",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "6.4.3",
+      "tag": "backfill_v6.4.3",
+      "comments": {
+        "none": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          },
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-config",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          },
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-logger",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          },
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-utils-dotenv",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          }
+        ],
+        "patch": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-cache",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Move logic out of index file (no behavior change)"
+          },
+          {
+            "author": "email not defined",
+            "package": "backfill-hasher",
+            "commit": "8991848a60f40a2fdba6ab04de9257fe2b7af1ac",
+            "comment": "Update dependency workspace-tools to ^0.41.0"
+          }
+        ],
+        "minor": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-hasher",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Improve internal structure and remove excess exports. If you were using exports besides Hasher, please file an issue."
+          },
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-hasher",
+            "commit": "8991848a60f40a2fdba6ab04de9257fe2b7af1ac",
+            "comment": "Simplify internal logic, remove `@rushstack/package-deps-hash` dependency, and add exports for functions duplicated by lage"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 10 Oct 2025 00:20:02 GMT",
       "version": "6.4.2",
       "tag": "backfill_v6.4.2",

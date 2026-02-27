@@ -1,8 +1,21 @@
 # Change Log - backfill-hasher
 
-<!-- This log was last generated on Wed, 06 Aug 2025 08:17:18 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 27 Feb 2026 00:49:04 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 6.7.0
+
+Fri, 27 Feb 2026 00:49:04 GMT
+
+### Minor changes
+
+- Improve internal structure and remove excess exports. If you were using exports besides Hasher, please file an issue. (elcraig@microsoft.com)
+- Simplify internal logic, remove `@rushstack/package-deps-hash` dependency, and add exports for functions duplicated by lage (elcraig@microsoft.com)
+
+### Patches
+
+- Update dependency workspace-tools to ^0.41.0 (email not defined)
 
 ## 6.6.3
 

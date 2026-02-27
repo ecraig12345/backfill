@@ -2,6 +2,21 @@
   "name": "backfill-utils-dotenv",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "5.3.1",
+      "tag": "backfill-utils-dotenv_v5.3.1",
+      "comments": {
+        "none": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-utils-dotenv",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 06 Aug 2025 06:52:42 GMT",
       "version": "5.3.1",
       "tag": "backfill-utils-dotenv_v5.3.1",

@@ -2,6 +2,21 @@
   "name": "backfill-cache",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "5.11.3",
+      "tag": "backfill-cache_v5.11.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-cache",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Move logic out of index file (no behavior change)"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 10 Oct 2025 00:20:02 GMT",
       "version": "5.11.2",
       "tag": "backfill-cache_v5.11.2",

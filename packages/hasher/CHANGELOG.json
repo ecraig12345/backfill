@@ -2,6 +2,35 @@
   "name": "backfill-hasher",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "6.7.0",
+      "tag": "backfill-hasher_v6.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-hasher",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Improve internal structure and remove excess exports. If you were using exports besides Hasher, please file an issue."
+          },
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-hasher",
+            "commit": "8991848a60f40a2fdba6ab04de9257fe2b7af1ac",
+            "comment": "Simplify internal logic, remove `@rushstack/package-deps-hash` dependency, and add exports for functions duplicated by lage"
+          }
+        ],
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "backfill-hasher",
+            "commit": "8991848a60f40a2fdba6ab04de9257fe2b7af1ac",
+            "comment": "Update dependency workspace-tools to ^0.41.0"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 06 Aug 2025 08:17:18 GMT",
       "version": "6.6.3",
       "tag": "backfill-hasher_v6.6.3",

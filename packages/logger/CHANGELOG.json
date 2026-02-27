@@ -2,6 +2,21 @@
   "name": "backfill-logger",
   "entries": [
     {
+      "date": "Fri, 27 Feb 2026 00:49:04 GMT",
+      "version": "5.4.0",
+      "tag": "backfill-logger_v5.4.0",
+      "comments": {
+        "none": [
+          {
+            "author": "elcraig@microsoft.com",
+            "package": "backfill-logger",
+            "commit": "7c2effc9bb41ab49e64d2f3ce857399e456f3301",
+            "comment": "Simplify build script"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 06 Aug 2025 06:52:42 GMT",
       "version": "5.4.0",
       "tag": "backfill-logger_v5.4.0",

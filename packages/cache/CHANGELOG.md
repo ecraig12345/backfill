@@ -1,8 +1,16 @@
 # Change Log - backfill-cache
 
-<!-- This log was last generated on Fri, 10 Oct 2025 00:20:02 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 27 Feb 2026 00:49:04 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 5.11.3
+
+Fri, 27 Feb 2026 00:49:04 GMT
+
+### Patches
+
+- Move logic out of index file (no behavior change) (elcraig@microsoft.com)
 
 ## 5.11.2
 
